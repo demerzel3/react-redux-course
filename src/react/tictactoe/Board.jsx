@@ -32,7 +32,7 @@ class Board extends Component {
         ));
 
         return (
-            <div>
+            <div className="game-board">
                 {rows.map((rowItems, rowIndex) => (
                     <div className="board-row" key={rowIndex}>
                         {rowItems.map(squareIndex => (
